@@ -54,8 +54,7 @@ RUN apt-get install -y \
     git \
     subversion \
     perl \
-    python2.7 \
-    python3.5
+    python3.9
 
 # Install Node.js and npm from NodeSource PPA
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
